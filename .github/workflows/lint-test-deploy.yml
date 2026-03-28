@@ -1,7 +1,7 @@
 name: Lint,Test,Deploy
 on: push
 jobs:
-  lint:
+  development-process:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
